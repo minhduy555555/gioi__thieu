@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    display: inline-flex;
+    align-items: center;
+}
+.app{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70%;
+    transform: translateY(-50%);
+    
+}
+.header{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about__me{
+    color: #1f8ffc;
+    padding: 10px 0;
+}
+.updateed{
+    color: #888b9b;
+}
+.imd__mysel{
+    padding: 20px 0;
+    border-radius: 50%;
+    height: 130px;
+}
+.name{
+    color: #428df8;
+    padding-bottom: 10px;
+}
+.list{
+    display: block;
+    width: 100vw;
+    border-top: 1px solid rgba(219, 222, 225, 1) ;
+    text-align: center;
+    list-style: none;
+    padding-top: 10px;
+    margin: 10px;
+}
+.item{
+    padding: 0 10px;
+    background-color: salmon;
+    margin: 10px 40px;
+    border-radius: 10px;
+    height: 34px;
+}
+
+.icon{
+    display: inline-block;
+    width: 30px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    display:inline-block;
+    width: 100%;
+    line-height: 34px;
+}
